@@ -20,3 +20,13 @@ curl -X GET -H "Content-Type: application/json" "http://localhost:4000/employees
 1> To add more data into EmployeePayroll.json, command used->
 curl -X POST -H "Content-Type: application/json" -d'{"name" : "Taniya", "salary" : "35000"}' "http://localhost:4000/employees/create/6"
 
+//UC3 
+Command used-
+1. curl -X POST -H "Content-Type: application/json" -d'{"name" : "Tushar", "salary" : "45000"}' "http://localhost:4000/employees/create/8"
+
+2. curl -X POST -H "Content-Type: application/json" -d'{"name" : "Disha", "salary" : "55000"}' "http://localhost:4000/employees/create/9"
+ 
+3.curl -X POST -H "Content-Type: application/json" -d'{"name" : "Saara", "salary" : "25000"}' "http://localhost:4000/employees/create/10"
+
+
+
