@@ -29,4 +29,12 @@ Command used-
 3.curl -X POST -H "Content-Type: application/json" -d'{"name" : "Saara", "salary" : "25000"}' "http://localhost:4000/employees/create/10"
 
 
+//UC4
+To update the Salary, command used->
+ 1. curl -X PUT -H "Content-Type: application/json" -d'{"name" : "Siddhant", "salary" : "60000"}' "http://localhost:4000/employees/update/1"
+
+2.curl -X PUT -H "Content-Type: application/json" -d'{"name" : "Ajay", "salary" : "20000"}' "http://localhost:4000/employees/update/5"
+
+
+
 
