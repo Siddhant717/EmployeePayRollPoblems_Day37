@@ -15,3 +15,8 @@ http://localhost:3000/employees
 6>Curl command ->
 a>To get all the list from EmployeePayroll.json, command used->
 curl -X GET -H "Content-Type: application/json" "http://localhost:4000/employees/list"
+
+//UC2
+1> To add more data into EmployeePayroll.json, command used->
+curl -X POST -H "Content-Type: application/json" -d'{"name" : "Taniya", "salary" : "35000"}' "http://localhost:4000/employees/create/6"
+
