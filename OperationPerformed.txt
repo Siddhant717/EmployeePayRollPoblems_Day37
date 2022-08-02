@@ -35,6 +35,11 @@ To update the Salary, command used->
 
 2.curl -X PUT -H "Content-Type: application/json" -d'{"name" : "Ajay", "salary" : "20000"}' "http://localhost:4000/employees/update/5"
 
+//UC5
+To delete the Employee, command used->
+1.curl -X DELETE -H "Content-Type: application/json"  "http://localhost:4000/employees/delete/10"
+
+2. curl -X DELETE -H "Content-Type: application/json"  "http://localhost:4000/employees/delete/9"
 
 
 
